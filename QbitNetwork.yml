@@ -8,21 +8,21 @@ services:
       - ../QbitNetworkd:/var/lib/QbitNetworkd/
     networks:
       testnet:
-        ipv4_address: Add_your_Test_IP_here
+        ipv4_address: Add_your_test_IP_here
   
 #  node2:
 #    image: MyBigDog/QbitNetwork
 #    container_name: QbitNetworktest-node2
 #    networks:
 #      testnet:
-#        ipv4_address: Add_your_Test_IP_here
+#        ipv4_address: Add_your_test_IP_here
   
 #  node3:
 #    image: MyBigDog/QbitNetwork
 #    container_name: QbitNetworktest-node3
 #    networks:
 #      testnet:
-#        ipv4_address: Add_your_Test_IP_here
+#        ipv4_address: Add_your_test_IP_here
 
 networks:
   testnet:
