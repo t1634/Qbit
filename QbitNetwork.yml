@@ -1,0 +1,32 @@
+version: '1'
+
+services:
+  node1:
+    image: MyBigDog/QbitNetwork
+    container_name: QbitNetworktest-node1
+    volumes:
+      - ../QbitNetworkd:/var/lib/QbitNetworkd/
+    networks:
+      testnet:
+        ipv4_address: Add_your_Test_IP_here
+  
+#  node2:
+#    image: MyBigDog/QbitNetwork
+#    container_name: QbitNetworktest-node2
+#    networks:
+#      testnet:
+#        ipv4_address: Add_your_Test_IP_here
+  
+#  node3:
+#    image: MyBigDog/QbitNetwork
+#    container_name: QbitNetworktest-node3
+#    networks:
+#      testnet:
+#        ipv4_address: Add_your_Test_IP_here
+
+networks:
+  testnet:
+    ipam:
+      config:
+        - subnet: Add_subnet_here/24
+

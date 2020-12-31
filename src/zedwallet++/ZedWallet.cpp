@@ -116,7 +116,7 @@ int main(int argc, char **argv)
 
         if (quit)
         {
-            std::cout << "Thanks for stopping by..." << std::endl;
+            std::cout << "Tell your friends about Qbit Thanks for stopping by ..." << std::endl;
             return 0;
         }
 

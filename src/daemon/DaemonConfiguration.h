@@ -36,7 +36,7 @@ namespace DaemonConfig
             rpcInterface = "127.0.0.1";
             rpcPort = CryptoNote::RPC_DEFAULT_PORT;
             noConsole = false;
-            enableBlockExplorer = false;
+            enableBlockExplorer = true;
             localIp = false;
             hideMyPort = false;
             p2pResetPeerstate = false;

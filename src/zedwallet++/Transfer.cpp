@@ -26,7 +26,7 @@ namespace
 void transfer(const std::shared_ptr<WalletBackend> walletBackend, const bool sendAll)
 {
     std::cout << InformationMsg("Note: You can type cancel at any time to "
-                                "cancel the transaction\n\n");
+                                "cancel this transaction\n\n");
 
     const bool integratedAddressesAllowed(true), cancelAllowed(true);
 
