@@ -5,7 +5,7 @@
 //
 /* Checkpoints now use internal-checkpoints-tool  found in scripts folder
    Please run npm install
-   add up to date  checkpoints.csv file to internal-checkpoints-tool folder
+   add up to date  checkpoints.csv file to internal-checkpoints-tool folder https://github.com/QbitNetwork/checkpoints.csv
    then run node checkpoints.js to add current checkpoints for synching daemon*/
 
 #pragma once
