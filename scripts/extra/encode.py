@@ -3,13 +3,9 @@ import ujson as json
 import sys
 import binascii
 
-to_address = "TRTLv3xYqUdAy4K8viYjNnMj21NLohHbf9ut2Cczxyh96d74TzxNgdB3aZbb9U2ZJ1DVmVpbDwzH77821o9ciNYQVaSt3V6bu7R"
+to_address = "QBC9BsA658hdvgPruWcVWK6iLXNTwTF8K5rAAEuAb69uTyswXviQP3bdxwqMbJUM71hgyG6P2QFZ2aJy4BnAr8X99mEDW9ahoK"
 content = """
-  _____     ____
- /      \  |  o |
-|        |/ ___\|
-|_________/
-|_|_| |_|_|
+ 
 """
 
 def rpc(method, params={}):
@@ -25,7 +21,7 @@ def rpc(method, params={}):
     try:
         response = requests.post(base_url, data=json.dumps(payload)).json()
     except Exception as e:
-        print("Doesn't seem like turtle-service is running. {}".format(response))
+        print("Doesn't seem like Q-service is running. {}".format(response))
         sys.exit(1)
 
     if 'error' in response:
