@@ -14,8 +14,8 @@ $ python3.6 makechange.py
 Make two wallets and fill one or both with some funds, or start mining to it.
 Open the wallets with turtle-service like so:
 
-./Q-service -w walletA.wallet -p t3d57a69C9pR --rpc-password rpcpass --bind-port 8070
-./Q-service -w walletB.wallet -p t3d57a69C9pR --rpc-password rpcpass --bind-port 8071
+./Q-service -w walletA.wallet -p Your-password-here --rpc-password rpcpass --bind-port 8070
+./Q-service -w walletB.wallet -p Your-password_here --rpc-password rpcpass --bind-port 8071
 
 Feel free to change these parameters if needed of course.
 
