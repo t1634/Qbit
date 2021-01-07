@@ -2,6 +2,11 @@
 // Copyright (c) 2018-2020, The TurtleCoin Developers
 // Copyright (c) 2020-2021, Dave Brennan,  k7n2g, Qbit Currency
 // Please see the included LICENSE file for more information.
+//
+/* Checkpoints now use internal-checkpoints-tool  found in scripts folder
+   Please run npm install
+   add up to date  checkpoints.csv file to internal-checkpoints-tool folder
+   then run node checkpoints.js to add current checkpoints for synching daemon*/
 
 #pragma once
 
