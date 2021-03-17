@@ -1,4 +1,4 @@
-![Optional Text](../development/img/Qbit.png)
+![Optional Text](../main/img/Qbit.png)
 
 
 <h3>BOUNTIES Payable:  Devs check it out email wordupseo@aol.com Quote BOUNTY Available.
