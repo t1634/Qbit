@@ -126,7 +126,7 @@ sudo apt-get install software-properties-common
 <ul>
 <li><code>sudo apt-get install software-properties-common</code></li>    
 <li><code>sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y</code></li>
-<li><code>wget -O - http://llvm.org/apt/llvm-snapshot.gpg.key | sudo apt-key add â€“</code></li>
+<li><code>wget -O - http://llvm.org/apt/llvm-snapshot.gpg.key | sudo apt-key add -</code></li>
 </ul>
 <ul>
 <li><code>sudo apt-get update</code></li>
@@ -265,5 +265,4 @@ See the ubuntu instructions for an example.</p>
   </div>
 
     </div>
-# Qbit
-# Qbit
+
