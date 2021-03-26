@@ -1,4 +1,4 @@
-### Compiling TurtleCoin
+### Compiling Qbit Currency
 
 ##### Table of Contents
 
