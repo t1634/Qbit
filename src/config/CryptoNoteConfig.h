@@ -357,14 +357,14 @@ namespace CryptoNote
     const size_t P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT = 5000; // 5 seconds
     const char P2P_STAT_TRUSTED_PUB_KEY[] = "";
 
-   const uint64_t ROCKSDB_WRITE_BUFFER_MB = 8092 ; // 256 MB x by 31.60937
-    const uint64_t ROCKSDB_READ_BUFFER_MB =  8092 ; // 128 MB x by 63.21875
-    const uint64_t ROCKSDB_MAX_OPEN_FILES = 1025; // 125 files  x by 8.2 
-    const uint64_t ROCKSDB_BACKGROUND_THREADS = 10; // 4 DB threads upped to 10 threads 
+    const uint64_t ROCKSDB_WRITE_BUFFER_MB = 512; // 256 MB x by 2
+    const uint64_t ROCKSDB_READ_BUFFER_MB = 512; // 128 MB x by 63.21875
+    const uint64_t ROCKSDB_MAX_OPEN_FILES = 250; // 125 files  
+    const uint64_t ROCKSDB_BACKGROUND_THREADS = 6; // 4 DB threads upped to 6 
 
     const uint64_t LEVELDB_WRITE_BUFFER_MB = 256; // 64 MB x this by 4 256mb
     const uint64_t LEVELDB_READ_BUFFER_MB = 256; // 64 MB  x this by 4 256mb
-    const uint64_t LEVELDB_MAX_OPEN_FILES = 1025; // 128 files
+    const uint64_t LEVELDB_MAX_OPEN_FILES = 256; // 128 files
     const uint64_t LEVELDB_MAX_FILE_SIZE_MB = 1024; // 1024MB = 1GB
 
     const char LATEST_VERSION_URL[] = "https://qbit.money";
