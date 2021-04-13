@@ -61,9 +61,10 @@ namespace CryptoNote
 
         static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
        
-        const char GENESIS_COINBASE_TX_HEX[] = "010a01ff000188f3b501029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd088071210142694232c5b04151d9e4c27d31ec7a68ea568b19488cfcb422659a07a0e44dd5";
-
-        static_assert(
+        const char GENESIS_COINBASE_TX_HEX[] = "010a01ff0001f95a029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd088071840101bc0419aa652a814fad0399be7357340fc626dcfea11cf24aaaf36acccb37023f040000000000000000000000000000000000000000000000000000000000000000050000000000000000000000000000000000000000000000000000000000000000067f9a599beb08827d84195a87f141b25c347f9cee39663aba0f4fd719f82f3601";
+       // Updated genesis block
+        
+	    static_assert(
             sizeof(GENESIS_COINBASE_TX_HEX) / sizeof(*GENESIS_COINBASE_TX_HEX) != 1,
             "GENESIS_COINBASE_TX_HEX must not be empty.");
 
@@ -71,7 +72,9 @@ namespace CryptoNote
            You can get this value by doing "print_block 2" in TurtleCoind. It is used to know what timestamp
            to import from when the block height cannot be found in the node or the node is offline. */
         const uint64_t GENESIS_BLOCK_TIMESTAMP = 0;
-
+      
+	//check this at Block 1000 should update auto
+		
         const size_t CRYPTONOTE_REWARD_BLOCKS_WINDOW = 100;
 
         const size_t CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE =
